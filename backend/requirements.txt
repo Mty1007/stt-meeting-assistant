@@ -1,0 +1,30 @@
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+python-multipart==0.0.12
+pydantic==2.10.3
+pydantic-settings==2.6.1
+httpx==0.28.0
+aiofiles==24.1.0
+
+# Audio processing
+pydub==0.25.1
+ffmpeg-python==0.2.0
+
+# Speaker diarization
+pyannote.audio==3.3.2
+torch==2.5.1
+torchaudio==2.5.1
+
+# IBM Watson STT
+ibm-watson==8.1.0
+ibm-cloud-sdk-core==3.22.0
+
+# watsonx.ai
+ibm-watsonx-ai==1.1.14
+
+# Monitoring
+instana==3.16.0
+
+# Utilities
+python-dotenv==1.0.1
+structlog==24.4.0
